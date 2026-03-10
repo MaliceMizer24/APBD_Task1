@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace APBD_Task1
+{
+    public class Program
+    {
+        public static int CalculateAvg(int[] nums)
+        {
+            int sum = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                sum += nums[i];
+            }
 
-Console.WriteLine("Hello, World!");
+            return sum / nums.Length;
+        }
+    }
+}
