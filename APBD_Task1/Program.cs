@@ -36,5 +36,10 @@
 
             return max;
         }
+
+        public static int CalculateMin(int[] nums)
+        {
+            return 0;
+        }
     }
 }
