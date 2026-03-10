@@ -4,7 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            Console.Write("Enter numbers: ");
+            Console.Write("Enter numbers in the format a,b,c : ");
+            string numbers = Console.ReadLine();
         }
         public static int CalculateAvg(int[] nums)
         {
