@@ -7,6 +7,7 @@
             Console.Write("Enter numbers in the format a,b,c : ");
             string numbers = Console.ReadLine();
             string[] numbersArray = numbers.Split(',');
+            Console.WriteLine("You inputted " + numbersArray.Length + " numbers.");
         }
         public static int CalculateAvg(int[] nums)
         {
