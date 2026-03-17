@@ -39,7 +39,14 @@
 
         public static int CalculateMin(int[] nums)
         {
-            return 0;
+            int min = nums[0];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] < min)
+                    min = nums[i];
+            }
+
+            return min;
         }
     }
 }
