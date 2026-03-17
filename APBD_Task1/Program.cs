@@ -5,8 +5,8 @@
         public static void Main(string[] args)
         {
             Console.Write("Enter numbers in the format a,b,c : ");
-            string numbers = Console.ReadLine();
-            string[] numbersArray = numbers.Split(',');
+            string nums = Console.ReadLine();
+            string[] numbersArray = nums.Split(',');
             Console.WriteLine("You inputted " + numbersArray.Length + " numbers.");
 
             for (int i = 0; i < numbersArray.Length; i++)
