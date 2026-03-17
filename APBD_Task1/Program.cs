@@ -39,6 +39,7 @@
 
         public static int CalculateMin(int[] nums)
         {
+<<<<<<< Updated upstream
             int min = nums[0];
             for (int i = 0; i < nums.Length; i++)
             {
@@ -47,6 +48,9 @@
             }
 
             return min;
+=======
+            return 0;
+>>>>>>> Stashed changes
         }
     }
 }
