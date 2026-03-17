@@ -8,9 +8,9 @@
             string numbers = Console.ReadLine();
             string[] numbersArray = numbers.Split(',');
             Console.WriteLine("You inputted " + numbersArray.Length + " numbers :");
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < numbersArray.Length; i++)
             {
-                Console.Write(numbers[i]);
+                Console.Write(numbersArray[i]);
             }
         }
         public static int CalculateAvg(int[] nums)
