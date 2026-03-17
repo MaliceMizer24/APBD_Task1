@@ -7,7 +7,8 @@
             Console.Write("Enter numbers in the format a,b,c : ");
             string numbers = Console.ReadLine();
             string[] numbersArray = numbers.Split(',');
-            Console.WriteLine("You inputted " + numbersArray.Length + " numbers :");
+            Console.WriteLine("You inputted " + numbersArray.Length + " numbers.");
+            
             for (int i = 0; i < numbersArray.Length; i++)
             {
                 Console.Write(numbersArray[i]);
